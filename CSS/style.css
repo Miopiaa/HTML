@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+[name=paragrafo]{
+    color: hotpink;
+}

@@ -2,14 +2,32 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-h2{
-    font-size: 17px;
-    font-style: italic;
-    font-weight: normal;
+.container{
+    display: flex;
+    align-items: center;
+    
 }
 
-[name=paragrafo]{
-    color: hotpink;
+.d1{
+    flex: 0.5;
+    height: 200px; 
+    background-color: hotpink;
+}
+
+.d2{
+    flex: 0.25;
+
+    height: 200px;
+  
+    background-color: rgb(255, 0, 128);
+}
+
+.d3{
+    flex: 0.25;
+    height: 200px;
+   
+    background-color: rgb(122, 0, 61);
 }

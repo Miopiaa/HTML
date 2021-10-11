@@ -1,10 +1,38 @@
-:root{
-    --corPadrao: blue;
-    --widthpadrao: 300px;
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div{
-    background-color: var(--corPadrao);
-    max-width: var(--widthpadrao);
-    margin: 0 auto;
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.box{
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: #9ee797;
+}
+
+@media screen and (min-width: 768px){
+    .box{
+        width: 33.3%;
+    }
+}
+
+/*@media screen and (max-width: 768px){
+    .box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .box{
+        background-color: red;
+    }
+}
+*/
